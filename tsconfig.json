@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // File layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Target Node environment
+    "target": "ES2019",
+    "module": "CommonJS",
+
+    // Node types
+    "moduleResolution": "node",
+    "types": ["node"],
+
+    // Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Strictness
+    "strict": true,
+    "skipLibCheck": true,
+
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
